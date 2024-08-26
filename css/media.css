@@ -1,0 +1,138 @@
+@media (max-width:1500px){
+    .heading-contact{
+        margin-bottom: 60px !important ;
+        margin-top: 90px;
+    }
+
+    .img-home{
+        width: 400px;
+    }
+   
+    .heading-product{
+        margin-bottom: 60px !important;
+        margin-top: 90px;
+    }
+
+    .row .col-md-6{
+        width: 90%;
+    }
+
+        
+    .card-product{
+     left: 60px;
+    }
+
+
+
+    .container-content{
+      left: 50px;  
+    }
+    
+    .contact-form{
+        height: 110vh;
+    }
+
+    .about-us-conteiner{
+        height: 100vh;
+    }
+
+    .testimonial{
+        height: 110vh;
+    }
+    
+}
+
+@media (max-width:1200px){
+
+    .about-us{
+        height: 400px;
+    }
+
+    .card-product{
+        width: 100%;
+        
+    }
+
+    
+}
+
+@media (max-width:500px){
+    
+    /*acomodando header de espacio*/
+    .header{
+    height: 110vh;
+
+    }
+    /*acomodando contenedor de about*/
+
+    .about-us-conteiner{
+    height: 60vh;
+
+    }
+
+    .heading-about{
+    font-size: 15px;
+    }
+
+    .img-about{
+    display: none;
+    }
+
+    .about-us{
+        height: 420px;
+    }
+
+    /*acomodando producto*/
+
+
+    .card-text{
+        display: none;
+    }
+
+    .card-product{
+        left: 20px;
+        
+    }
+
+    .Product-category{
+        height: 50vh;
+    }
+
+   /*edicion de comentarios*/
+
+   .container-content{
+     width: 80%;
+     height: 200px;
+     left: 20px;
+   }
+    
+   .img-client{
+    width: 50%;
+    height: 50%;
+   }
+
+   .para-client{
+    display: none;
+   }
+
+   /*edicion de contactos*/
+
+   #boton{
+    
+    margin-bottom: 60px !important ;
+    margin-top: 50px;
+   }
+
+   
+
+   #contenedor{
+    height: 80vh;
+   }
+
+   footer{
+    margin-top: 100px !important;
+   }
+
+
+  
+}

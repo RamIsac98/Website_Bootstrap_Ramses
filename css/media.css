@@ -44,6 +44,30 @@
 
 @media (max-width:1200px){
 
+    .header{
+        height: 55vh;
+    }
+
+    .content-home2{
+        height: 60vh;
+    }
+
+    .about-us-conteiner{
+        height: 18vh;
+    }
+
+    
+   .container-fluid{
+    margin-bottom: 0px;
+   }
+
+   .Product-category{
+    height: 80vh;
+   }
+
+   .testimonial{
+    height: 20vh;
+   }
     .about-us{
         height: 400px;
     }
@@ -53,7 +77,75 @@
         
     }
 
+    .contact-form{
+        height: 100vh;
+    }
+
     
+}
+
+@media (max-width:900px){
+
+    .img-home{
+        width: 250px;
+    }
+
+    .about-us-conteiner{
+        height: 35vh;
+    }
+
+    .img-about{
+        width: 290px;
+        height: 500px;
+    }
+    
+    .para-about{
+        width: 50%;
+    }
+
+    .card-product{
+        left: 39px;
+    }
+
+    .Product-category{
+        height: 100vh;
+    }
+
+    .testimonial{
+        height: 90vh;
+    }
+
+    .contact-form{
+        height: 140vh;
+    }
+
+    #contenedor{
+        height: 60%;
+    }
+
+    .content-contact{
+        height: 70vh;
+    }
+    
+    .btn-contact{
+        
+        margin-bottom: 60px !important ;
+        margin-top: 90px;
+    }
+  
+}
+
+@media (max-width:850px){
+    .heading-contact{
+        
+        margin-bottom: 60px !important ;
+        margin-top: 20px;
+        
+    }
+
+    .contact-form{
+        height: 150vh;
+    }
 }
 
 @media (max-width:500px){
@@ -137,8 +229,16 @@
   
 }
 
-@media (max-width:500px) {
+@media (max-width:450px) {
 
+    .heading-testimonial{
+        
+    margin-bottom: 60px !important ;
+    margin-top: 50px;
+    }
+    .para-about{
+        width: 100%;
+    }
     .ms-auto{
         align-items: center;
     }
@@ -211,13 +311,10 @@
 
     
     #contenedor{
-        height: 150%;
+        height: 100vh;
+        margin-top: 20vh;
     }
-
-    .content-contact{
-        margin-top: 60px !important;
-        margin-bottom: 65px;
-    }
+    
     .heading-content{
         font-size: 25px;
         padding: 25px;
@@ -232,8 +329,12 @@
 
 }
 
-@media (max-width:450px) {
+@media (max-width:430px) {
     
+    .contact-form{
+        height: 120vh;
+    }
+
     .content-home2{
         margin-top: 0%;
     }
@@ -243,8 +344,16 @@
     }
     
     .testimonial{
-            height: 100vh;
+            height: 120vh;
         }
+
+    #contenedor{
+        height: 45vh;
+    }
+
+    .content-contact{
+        height: 35vh;
+    }
 }
 
 @media (max-width:400px){
@@ -254,6 +363,8 @@
 }
 
 @media (max-width:385px){
+    
+    
     .about-us-conteiner{
         height: 85vh;
     }
@@ -263,13 +374,17 @@
         margin-bottom: 0%;
     }
 
+    .contact-form{
+        height: 150vh;
+    }
+
 
     #contenedor{
-        height: 70vh;
+        height: 50vh;
     }
 
     .content-contact{
-        height: 65vh;
+        height: 55vh;
     }
 
     
@@ -278,7 +393,11 @@
         position: relative;
     }
 
+    .btn-contact{
+        margin-top: 0%;
+    }
 
 
     
 }
+

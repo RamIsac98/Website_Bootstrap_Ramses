@@ -230,11 +230,55 @@
         margin: 0%;
     }
 
+}
+
+@media (max-width:450px) {
+    
+    .content-home2{
+        margin-top: 0%;
+    }
+    
+    .about-us-conteiner{
+        height: 60vh;
+    }
+    
+    .testimonial{
+            height: 100vh;
+        }
+}
+
+@media (max-width:400px){
+    .testimonial{
+        height: 115vh;
+    }
+}
+
+@media (max-width:385px){
+    .about-us-conteiner{
+        height: 85vh;
+    }
+
+    .testimonial{
+        height: 155vh;
+        margin-bottom: 0%;
+    }
+
+
+    #contenedor{
+        height: 70vh;
+    }
+
+    .content-contact{
+        height: 65vh;
+    }
+
+    
+    footer{
+        bottom: -14vh;
+        position: relative;
+    }
 
 
 
-
-
-
-
+    
 }

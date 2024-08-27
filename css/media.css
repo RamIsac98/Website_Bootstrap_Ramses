@@ -401,3 +401,18 @@
     
 }
 
+@media (max-width:344px){
+
+    .about-us{
+        height: 55vh;
+    }
+
+    .about-us-conteiner{
+        height: 60vh;
+    }
+
+    .testimonial{
+        height: 100vh;
+    }
+}
+
